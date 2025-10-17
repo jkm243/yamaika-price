@@ -31,19 +31,26 @@ Système complet de gestion de prix avec interface d'administration moderne.
 ```bash
 git clone [url-du-projet]
 cd price-website
+```
 
 Configurer la base de données :
 
-sql
+```sql
 CREATE DATABASE price_website;
 Initialiser la structure :
+```
 
-bash
+```bash
 php database/init-database.php
+```
+
 Importer les données :
 
-bash
+
+```bash
 php database/import-data.php
+```
+
 Configurer les accès :
 Éditer api/config.php avec vos paramètres de base de données.
 
@@ -54,7 +61,7 @@ Frontend : http://localhost/price-website/
 Admin : http://localhost/price-website/admin/
 
 📁 Structure des Fichiers
-text
+``` text
 price-website/
 ├── index.html              # Page d'accueil
 ├── css/                   # Styles
@@ -63,8 +70,12 @@ price-website/
 ├── api/                   # API backend
 ├── database/              # Scripts base de données
 └── data/                  # Données initiales
+```
+
 🗃️ Base de Données
+
 Tables Principales
+
 categories - Catégories de produits
 
 products - Produits et services
@@ -74,6 +85,7 @@ prices - Prix par quantités
 product_parameters - Paramètres supplémentaires
 
 Schéma des Prix
+
 Les prix supportent différentes quantités :
 
 1, 10, 50, 100, 200, 300, 400, 500, 1000 pièces
@@ -102,6 +114,7 @@ Filtrage par catégories dans l'admin
 Recherche en temps réel
 
 🌐 API Endpoints
+```
 GET /api/get-products.php - Liste des produits
 
 POST /api/update-prices.php - Mettre à jour les prix
@@ -109,8 +122,10 @@ POST /api/update-prices.php - Mettre à jour les prix
 POST /api/add-product.php - Ajouter un produit
 
 POST /api/delete-product.php - Supprimer un produit
+```
 
 🔒 Sécurité
+
 Validation des données d'entrée
 
 Protection CORS
@@ -129,6 +144,7 @@ Tester la connexion base de données
 Vérifier les permissions des fichiers
 
 📄 Licence
+
 Propriétaire - Usage interne
 
 text
