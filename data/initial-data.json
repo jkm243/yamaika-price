@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "id": "tshirts",
+      "name_ru": "Футболки и одежда",
+      "name_fr": "T-shirts et vêtements",
+      "description": "Футболки, толстовки, худи, поло и другая одежда"
+    },
+    {
+      "id": "printing", 
+      "name_ru": "Печать и макеты",
+      "name_fr": "Impression et maquettes",
+      "description": "Шелкография, вышивка, ДТФ печать, макеты"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category_id": "tshirts",
+      "name_ru": "Футболки РЕГЕНТ Хэппи 150гр",
+      "description_ru": "Футболка из 100% хлопка, плотность 150г/м²",
+      "notes": "от 3XL +150р",
+      "prices": {
+        "quantity_1": 550,
+        "quantity_10": 510,
+        "quantity_50": 510,
+        "quantity_100": 510,
+        "quantity_200": 510,
+        "quantity_300": 510,
+        "quantity_400": 510,
+        "unit": "р",
+        "min_order": null,
+        "production_days": null
+      }
+    },
+    {
+      "id": 2,
+      "category_id": "tshirts", 
+      "name_ru": "Футболки IMPERIAL Хэппи 190гр",
+      "description_ru": "Премиум футболка, плотность 190г/м²",
+      "notes": "от 3XL +150р",
+      "prices": {
+        "quantity_1": 700,
+        "quantity_10": 670,
+        "quantity_50": 670,
+        "quantity_100": 670,
+        "quantity_200": 670,
+        "quantity_300": 670,
+        "quantity_400": 670,
+        "unit": "р",
+        "min_order": null,
+        "production_days": null
+      }
+    }
+  ]
+}
