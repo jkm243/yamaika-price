@@ -1,0 +1,33 @@
+price-website/
+│
+├── index.html                          # Page d'accueil publique
+├── css/
+│   ├── style.css                       # Styles pour le frontend public
+│   └── admin.css                       # Styles pour le dashboard admin
+│
+├── js/
+│   ├── main.js                         # JavaScript frontend public
+│   └── admin.js                        # JavaScript dashboard admin (À CRÉER)
+│
+├── admin/
+│   └── index.html                      # Dashboard administrateur
+│
+├── api/
+│   ├── config.php                      # Configuration base de données
+│   ├── get-products.php                # Récupérer tous les produits
+│   ├── get-categories.php              # Récupérer les catégories
+│   ├── update-prices.php               # Mettre à jour les prix
+│   ├── update-product.php              # Mettre à jour un produit
+│   ├── add-product.php                 # Ajouter un produit
+│   └── delete-product.php              # Supprimer un produit (À CRÉER)
+│
+├── database/
+│   ├── init-database.php               # Initialiser la structure BDD
+│   └── import-data.php                 # Importer les données initiales
+│
+├── data/
+│   └── initial-data.json               # Données initiales des produits
+│
+└── assets/
+    ├── images/                         # Images du site
+    └── icons/                          # Icônes
